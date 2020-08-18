@@ -24,6 +24,8 @@ class SpringbootApplicationTests {
      *测试在spring容器中加载自己编写的类两种方式；springboot 推荐给容器添加组件的方式，不推荐编写spring的配置文件
      * 第一种：编写配置文件导入，@ImportResource不推荐
      * 第二种：编写spring配置类，推荐以u添加组件的方式
+     *
+     *
      */
     @Test
     void tellHelloService(){
