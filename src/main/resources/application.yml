@@ -1,5 +1,14 @@
+
+#默认端口
 server:
   port: 9090
+
+#默认端口环境
+spring:
+  profiles:
+    active: dev
+
+#配置person
 person:
   username: 黄信胜
   age: 23
@@ -13,3 +22,5 @@ person:
     k2: 23
   dog:
     dogName: jerry
+
+

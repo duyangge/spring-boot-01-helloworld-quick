@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @create 2020/8/9
  * @Date 2020/8/9 20:21
  */
-/*@ResponseBody
+/**@ResponseBody
 @Controller*/
 @RestController
 public class HelloController {
