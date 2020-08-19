@@ -14,18 +14,16 @@ import java.util.Map;
 /**
  * 功能简述:
  *@configurationProperties:告诉springboot将本类的属性与配置文件中相关的配置进行绑定；
- *
  * prefix = "person" :配置文件中哪个下面的所有属性进行一一映射
  * 只有这个组件是容器的组件，才能使用容器提供的@ConfigurationProperties功能，因此加入@Component
  * @ConfigutationProperties（prefix="person"）默认从全局配置文件获取值；
- *
  * @PropertySource(value={"classpath:person.properties"}):加载指定路径下的配置文件
- *
  * @author 23801
  * @version 1.0.0
  * @create 2020/8/9
  * @Date 2020/8/9 22:21
  */
+
 /**
  * <bean class="pserson" >
  *     第一种：
@@ -43,7 +41,8 @@ import java.util.Map;
  *  从@PropertySource指定的路径中找到对应的配置文件，进行赋值。
  *
  */
-@PropertySource(value={"classpath:person.properties"})
+
+@PropertySource(value = {"classpath:person.properties"})
 @Component
 @ConfigurationProperties(prefix = "person")//将配置文件中配置的每一个属性的值都映射到这个组件中,快速动态绑定
 //@Validated

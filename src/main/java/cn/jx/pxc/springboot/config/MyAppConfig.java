@@ -7,16 +7,23 @@ import org.springframework.context.annotation.Configuration;
 /**
  * 功能简述:
  *
+
+ *@Configuration:就是指明当前类是一个配置类，就是替代之前的spring配置文件的e
+ * 在配置文件中<bean></bean>标签添加组件
+ *
+
  * @author 23801
  * @version 1.0.0
  * @create 2020/8/14
  * @Date 2020/8/14 21:19
  */
 
+
 /**
  *@Configuration:就是指明当前类是一个配置类，就是替代之前的spring配置文件的e
  * 在配置文件中<bean></bean>标签添加组件
  */
+
 @Configuration
 public class MyAppConfig {
     /**
