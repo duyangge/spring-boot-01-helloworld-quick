@@ -55,6 +55,7 @@
         </dependency>
 
         <!--add huTool plugin-->
+        <!--refer https://hutool.cn/-->
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
