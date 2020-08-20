@@ -1,0 +1,44 @@
+
+#默认端口
+#server:
+#  port: 9091
+---
+
+#默认端口环境
+spring:
+  profiles:
+    active: dev
+#  config:
+#    location: F:\defaultbrowerdownload\application.yml
+server:
+  servlet:
+    context-path: /boot
+---
+
+server:
+  port: 8081
+spring:
+  profiles: dev
+---
+
+server:
+  port: 8082
+spring:
+  profiles: prod
+---
+#配置person
+#person:
+#  username: 黄信胜
+#  age: 23
+#  boss: false
+#  birth: 1998/08/25
+#  lists:
+#    - tom
+#    - jie
+#  maps:
+#    k1: v1
+#    k2: 23
+#  dog:
+#    dogName: jerry
+
+
