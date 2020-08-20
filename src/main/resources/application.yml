@@ -3,13 +3,19 @@
 #server:
 #  port: 9091
 ---
-
 #默认端口环境
 spring:
   profiles:
-    active: prod
+    active: dev
 #  config:
 #    location: F:\defaultbrowerdownload\application.yml
+#我们能配置的属性都来源ServerProperties这个属性文件
+server:
+  servlet:
+    context-path: /boot
+  undertow:
+    url-charset: UTF-8
+debug: true  #debug模式，查看容器中激活了哪些组件
 ---
 
 server:

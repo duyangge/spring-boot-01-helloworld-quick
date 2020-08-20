@@ -26,6 +26,6 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String show(){
-        return "hello,springboot-quick";
+        return "hello,springboot-quick,"+getHelloService.getHello();
     }
 }

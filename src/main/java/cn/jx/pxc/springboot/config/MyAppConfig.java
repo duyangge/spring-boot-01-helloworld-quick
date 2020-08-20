@@ -34,5 +34,6 @@ public class MyAppConfig {
     public HelloService getHelloService(){
         System.out.println("配置类@Bean给容器中添加组件了");
         return new HelloService();
+
     }
 }
