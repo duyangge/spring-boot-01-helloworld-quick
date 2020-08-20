@@ -17,8 +17,7 @@ import java.util.Date;
 public class HelloService {
 
     /**
-     *
-
+     *使用HuTool工具集中的DateUtil格式转换
      * @return
      * @author
      * @date
